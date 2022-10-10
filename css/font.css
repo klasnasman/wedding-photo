@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Untitled Serif';
+  src: url('https://files.cargocollective.com/c169834/UntitledSerif-Regular.woff2') format('woff2'),
+    url('https://files.cargocollective.com/c169834/UntitledSerif-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
