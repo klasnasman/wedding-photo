@@ -1,10 +1,9 @@
 // hamburger menu
+const couple = document.querySelector('.couple');
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const menu_items = document.querySelectorAll('nav .mainMenu li a');
-const couple = document.querySelector('.couple');
-
 
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
@@ -30,7 +29,7 @@ function close() {
 }
 
 
-// active link dot in menu test
+// active link dot in menu not working
 $(document).ready(function () {
     $('ul li a').click(function () {
         $('li a').removeClass("active");
