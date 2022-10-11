@@ -29,11 +29,12 @@ function close() {
 }
 
 
-// active link dot in menu not working
+/* active link dot in menu not working
+
 $(document).ready(function () {
     $('ul li a').click(function () {
         $('li a').removeClass("active");
         $(this).addClass("active");
     });
-});
+}); */
 
