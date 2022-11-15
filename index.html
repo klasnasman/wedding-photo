@@ -13,53 +13,79 @@
 
 <body>
 
-  <nav>
-    <div class="logo">
-      <a href="/index.html">
-        <h2>Klas Näsman</h2>
-      </a>
-    </div>
-    <div class="openMenu">
-      <!-- <span class="material-symbols-rounded" style="font-size:32px;">menu</span>-->Menu
-    </div>
-    <ul class="mainMenu">
-      <li class="active"><a href="/index.html">Portfolio</a></li>
-      <li><a href="/wedding/index.html">Bröllop</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="/contact/index.html">Kontakt</a></li>
-      <li class="hide">Klas Näsman</li>
-      <div class="closeMenu">
-        <!--<span class="material-symbols-rounded">close</span>-->Close
-      </div>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <h3><a href="#">Klas Näsman</a></h3>
+      <ul>
+        <li class="active"><a href="/">Portfolio</a></li>
+        <li><a href="/wedding">Bröllop</a></li>
+        <li><a href="/contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <div class="row">
     <div class="column">
-      <img src="/img/gudmar.1280.jpg">
-      <img src="/img/mexiko.png">
-      <img src="/img/toro.1280.jpg">
-      <img src="/img/anders3.1280.png">
+      <img class="lazy-load" data-src="/img/emmajonas2.jpg">
+      <img class="lazy-load" data-src="/img/gudmar.1280.jpg">
+      <img class="lazy-load" data-src="/img/mexiko.png">
+      <img class="lazy-load" data-src="/img/lisaalex.jpg">
+      <img class="lazy-load" data-src="/img/toro.1280.jpg">
+      <img class="lazy-load" data-src="/img/anders3.1280.png">
+      <img class="lazy-load" data-src="/img/indien.jpg">
     </div>
+
     <div class="column">
-      <img src="/img/per2.1280.png">
-      <img src="/img/mexiko2.png">
-      <img src="/img/anders2.1280.jpg">
-      <img src="/img/anders.1280.jpg">
+      <img class="lazy-load" data-src="/img/per2.1280.png">
+      <img class="lazy-load" data-src="/img/mexiko2.png">
+      <img class="lazy-load" data-src="/img/lisaalex2.jpg">
+      <img class="lazy-load" data-src="/img/anders2.1280.jpg">
+      <img class="lazy-load" data-src="/img/emmajonas.jpg">
+      <img class="lazy-load" data-src="/img/anders.1280.jpg">
+      <img class="lazy-load" data-src="/img/lofoten2.jpg">
     </div>
+
     <div class="column">
-      <img src="/img/smitingen.1280.png">
-      <img src="/img/smitingen2.1280.png">
-      <img src="/img/sibille.jpg">
-      <img src="/img/anders4.1280.png">
+      <img class="lazy-load" data-src="/img/annamathias2.jpg">
+      <img class="lazy-load" data-src="/img/smitingen.1280.png">
+      <img class="lazy-load" data-src="/img/agnespeter.jpg">
+      <img class="lazy-load" data-src="/img/smitingen2.1280.png">
+      <img class="lazy-load" data-src="/img/lisaalex4.jpg">
+      <img class="lazy-load" data-src="/img/sibille.jpg">
+      <img class="lazy-load" data-src="/img/anders4.1280.png">
+      <img class="lazy-load" data-src="/img/lisaalex3.jpg">
     </div>
+
     <div class="column">
-      <img src="/img/husbil.jpeg">
-      <img src="/img/sibille2.jpg">
-      <img src="/img/per.1280.png">
-      <img src="/img/lofoten.png">
+      <img class="lazy-load" data-src="/img/emmajonas3.jpg">
+      <img class="lazy-load" data-src="/img/husbil.jpeg">
+      <img class="lazy-load" data-src="/img/lisaalex5.jpg">
+      <img class="lazy-load" data-src="/img/sibille2.jpg">
+      <img class="lazy-load" data-src="/img/per.1280.png">
+      <img class="lazy-load" data-src="/img/lofoten.png">
+      <img class="lazy-load" data-src="/img/annamathias.jpg">
+      <img class="lazy-load" data-src="/img/lindatheo.jpg">
+    </div>
+
+  </div>
+  <div id="mobile-menu-content">
+    <div>
+      <ul>
+        <li><a href="/index.html">Portfolio</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
   </div>
+  <!--  <div class="footer">
+    <ul>
+      <li>Blog</li>
+      <li>Kontakt</li>
+      <li>Test</li>
+      <li>Test</li>
+    </ul>
+  </div> -->
 
   <script src="/js/main.js"></script>
 </body>
