@@ -299,11 +299,14 @@ img.three-mid {
   margin: 0 auto;
   width: 300px;
   z-index: 3;
+
+  transition: opacity 0.5s ease-in-out;
+
 }
 
 .couple.hide {
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+
 }
 
 .caption {
