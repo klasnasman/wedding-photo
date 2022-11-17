@@ -179,7 +179,7 @@ main {
   z-index: 1;
   display: flex;
   align-items: flex-start;
-  transition: all 0.4s ease-in-out;
+  transition: top 0.4s ease-in-out;
 }
 
 #mobile-menu-content.open {
