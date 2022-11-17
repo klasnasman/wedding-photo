@@ -290,7 +290,7 @@ img.three-mid {
   margin: 0 auto;
   width: 300px;
   z-index: 3;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.3s linear;
 }
 
 .couple.hide {
