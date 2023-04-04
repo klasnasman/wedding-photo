@@ -1,2 +1,2 @@
-# wedding-photo
 Hemsida till fotograf/bröllopsfotograf
+klasnasman.netlify.com
