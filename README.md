@@ -1,2 +1,2 @@
 Hemsida till fotograf/bröllopsfotograf
-klasnasman.netlify.com
+klasnasman-v1.netlify.com
