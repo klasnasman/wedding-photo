@@ -1,2 +1,2 @@
-Hemsida till fotograf/bröllopsfotograf
+Bröllopsfoto.
 klasnasman-v1.netlify.com

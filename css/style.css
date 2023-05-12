@@ -259,23 +259,13 @@ main {
 }
 
 /* IMAGE CLASSES IN WEDDING -> COUPLES */
-img.two-right {
-  width: 50%;
-  padding-right: 0.5rem;
-}
 
-img.two-left {
-  width: 50%;
-  padding-left: 0.5rem;
+img.two {
+  width: calc(50% - 0.5rem);
 }
 
 img.three {
-  width: 33.3%;
-}
-
-img.three-mid {
-  width: 33.3%;
-  padding: 0rem 1rem;
+  width: calc(33.3% - 0.5rem);
 }
 
 /* TEXT IN WEDDING -> COUPLES */
@@ -301,6 +291,7 @@ img.three-mid {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-inline: 1rem;
 }
 
 /* CONTACT PAGE */
