@@ -204,7 +204,7 @@ main {
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--spacer-s);
+  gap: var(--spacer-m);
   padding: var(--padding);
 }
 
