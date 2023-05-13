@@ -1,8 +1,7 @@
 :root {
   --color-body: #fbfbfa;
 
-  --ff-body: 'Brown', 'Untitled Serif', 'Verdana', sans-serif;
-  --ff-nav: "Apercu";
+  --ff-body: 'Domaine Sans Text', 'Untitled Serif', 'Inconsolata', 'Courier New', serif;
   --ff-heading: "Apercu";
 
   --fw-regular: 300;
