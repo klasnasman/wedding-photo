@@ -204,7 +204,7 @@ main {
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: var(--spacer-s);
   padding: var(--padding);
 }
 
@@ -215,12 +215,24 @@ main {
   gap: 1rem;
 }
 
+@media screen and (max-width: 900px) {
+  .column {
+    flex: calc(50% - 1rem);
+  }
+}
+
 .column-wedding {
   display: flex;
   flex: 32%;
   flex-direction: column;
   gap: 1rem;
   transition: all 0.3s;
+}
+
+@media screen and (max-width: 900px) {
+  .column-wedding {
+    flex: 100%
+  }
 }
 
 .column-wedding img:hover {
@@ -285,27 +297,10 @@ img.three {
   padding: var(--padding);
 }
 
-/* IMAGES MEDIA Q. */
 @media screen and (max-width: 900px) {
-  .column-wedding {
-    flex: 100%
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .column {
-    flex: 48%
-  }
-
   .contact {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     row-gap: 1rem;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .column {
-    flex: 100%
   }
 }
