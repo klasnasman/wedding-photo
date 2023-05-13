@@ -13,6 +13,11 @@
   --fs-500: 1.5rem;
   --fs-600: 2.5rem;
 
+  --spacer-xs: 0.25rem;
+  --spacer-s: 0.5rem;
+  --spacer-m: 1rem;
+  --spacer-l: 2rem;
+
   --padding: 1rem;
   --padding-title: 0.2rem 0rem 0rem 0rem;
   --padding-contact: 1rem 1rem 0rem 1rem;
@@ -223,6 +228,7 @@ main {
 .title {
   font-family: var(--ff-body);
   font-size: var(--fs-300);
+  margin-top: var(--spacer-xs);
   text-align: left;
 }
 
