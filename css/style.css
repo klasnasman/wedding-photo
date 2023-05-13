@@ -226,6 +226,8 @@ main {
 
 /* ROW & COLUMNS */
 .title {
+  display: flex;
+  justify-content: space-between;
   font-family: var(--ff-body);
   font-size: var(--fs-300);
   margin-top: var(--spacer-xs);
