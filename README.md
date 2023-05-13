@@ -1,2 +1,1 @@
-Bröllopsfoto.
-klasnasman-v1.netlify.com
+Klas Näsman Bröllopsfoto
