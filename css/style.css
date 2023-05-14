@@ -145,7 +145,7 @@ main {
 
 #mobile-menu-content {
   width: 100%;
-  height: calc(100svh - var(--header-height));
+  height: calc(100vh - var(--header-height));
   position: fixed;
   top: -100vh;
   left: 0;
@@ -161,7 +161,7 @@ main {
 
 #mobile-menu-content>div {
   width: 100%;
-  height: calc(100svh - var(--header-height));
+  height: calc(100vh - var(--header-height));
   display: flex;
   background-color: var(--color-body);
   flex-wrap: wrap;
