@@ -150,9 +150,7 @@ nav ul li a {
   width: 100%;
   height: 100vh;
   top: -100vh;
-  background-color: rgb(241, 241, 240, 0.3);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background-color: var(--color-body);
   transition: all 0.4s ease-in-out;
   z-index: 0;
 }
