@@ -177,6 +177,7 @@ nav ul li a {
 @media (max-width: 950px) {
   #header__button {
     display: block;
+    color: black;
   }
 }
 
