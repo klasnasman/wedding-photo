@@ -161,15 +161,19 @@ main {
 
 #mobile-menu-content>div {
   width: 100%;
-  height: calc(100vh - var(--header-height));
+  height: calc(100svh - var(--header-height));
   display: flex;
   background-color: var(--color-body);
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 #mobile-menu-content>div>ul {
   width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #mobile-menu-content ul li {
@@ -267,7 +271,7 @@ img.three {
   padding-top: 1rem;
   text-align: center;
   position: sticky;
-  top: -4px;
+  top: -5px;
   margin: 0 auto;
   width: 300px;
   z-index: 3;
