@@ -13,27 +13,37 @@
 
 <body>
 
-  <header>
-    <nav>
+  <header class="header">
+    <nav class="header__nav">
       <h3><a href="/">Klas Näsman</a></h3>
-      <ul>
+      <ul class="header__ul">
         <li><a href="/">Portfolio</a></li>
-        <li><a href="/wedding/">Bröllop</a></li>
+        <li><a href="/wedding">Bröllop</a></li>
         <li class="active"><a href="/contact">Kontakt</a></li>
       </ul>
+      <button id='header__button'>Menu</button>
     </nav>
   </header>
-
-  <div class="contact">
-    <div class="image-contact">
-      <img src="/img/klas.png">
+  <main class='page__transition'>
+    <div class="contact">
+      <div class="image-contact">
+        <img src="/img/klas.png">
+      </div>
+      <div class="text">
+        Fotografering för mig är att bevara minnen. <br>Ett sätt att minnas människor vi mött och platser vi besökt.
+        <br>
+        Foton hjälper oss att göra precis det - återskapa stundens detaljer och nyanser.<br><br>
+        Jag hjälper gärna till med att föreviga erat bröllop.&nbsp;<br>Bosatt i Stockholm men reser gärna. &nbsp;<br>
+        För priser och andra frågor kontakta mig på klasnasman@gmail.com
+      </div>
     </div>
-    <div class="text">
-      Fotografering för mig är att bevara minnen. <br>Ett sätt att minnas människor vi mött och platser vi besökt. <br>
-      Foton hjälper oss att göra precis det - återskapa stundens detaljer och nyanser.<br><br>
-      Jag hjälper gärna till med att föreviga erat bröllop.&nbsp;<br>Bosatt i Stockholm men reser gärna. &nbsp;<br>
-      För priser och andra frågor kontakta mig på klasnasman@gmail.com</div>
+  </main>
+  <div id='mobile__menu'>
+    <ul class='mobile__ul'>
+      <li><a href="/">Portfolio</a></li>
+      <li><a href="/wedding/">Bröllop</a></li>
+      <li><a href="/contact/">Kontakt</a></li>
+    </ul>
   </div>
-
   <script src="/js/main.js"></script>
 </body>
