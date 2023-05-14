@@ -54,7 +54,7 @@ function mobileMenu() {
   };
 
   const toggleMenuHandler = () => {
-    couple.classList.toggle("hide");
+    couple && couple.classList.toggle("hide");
     menuMobile.classList.toggle("open");
     menuBtn.textContent = menuBtn.textContent == "Meny" ? "Stäng" : "Meny";
   };
