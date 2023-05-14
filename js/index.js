@@ -43,7 +43,6 @@ function mobileMenu() {
   const menuBtn = document.getElementById("header__button");
   const menuMobile = document.getElementById("mobile__menu");
   const linksMobile = menuMobile.querySelectorAll(".mobile__ul li");
-  const couple = document.querySelector(".couple");
 
   const resizeHandler = () => {
     let w = window.innerWidth;
@@ -114,34 +113,34 @@ window.addEventListener("scroll", function (e) {
 
 // MOBILE MENU
 /* function mobileMenu() {
-    const menuBtn = document.getElementById("header__button");
-    const menuMobile = document.getElementById("mobile__menu");
-    const linksMobile = menuMobile.querySelectorAll(".mobile__ul li");
-  
-    const resizeHandler = () => {
-      let w = window.innerWidth;
-      if (w > 950) {
+      const menuBtn = document.getElementById("header__button");
+      const menuMobile = document.getElementById("mobile__menu");
+      const linksMobile = menuMobile.querySelectorAll(".mobile__ul li");
+    
+      const resizeHandler = () => {
+        let w = window.innerWidth;
+        if (w > 950) {
+          menuMobile.classList.remove("open");
+          menuBtn.textContent = "Menu";
+        }
+      };
+    
+      const toggleMenuHandler = () => {
+        menuMobile.classList.toggle("open");
+        menuBtn.textContent = menuBtn.textContent == "Menu" ? "Close" : "Menu";
+      };
+    
+      const linkClickHandler = () => {
         menuMobile.classList.remove("open");
         menuBtn.textContent = "Menu";
-      }
-    };
-  
-    const toggleMenuHandler = () => {
-      menuMobile.classList.toggle("open");
-      menuBtn.textContent = menuBtn.textContent == "Menu" ? "Close" : "Menu";
-    };
-  
-    const linkClickHandler = () => {
-      menuMobile.classList.remove("open");
-      menuBtn.textContent = "Menu";
-    };
-  
-    window.addEventListener("resize", resizeHandler);
-    menuBtn.addEventListener("click", toggleMenuHandler);
-  
-    linksMobile.forEach((link) => {
-      link.addEventListener("click", linkClickHandler);
-    });
-  }
-  
-  const mobile = mobileMenu(); */
+      };
+    
+      window.addEventListener("resize", resizeHandler);
+      menuBtn.addEventListener("click", toggleMenuHandler);
+    
+      linksMobile.forEach((link) => {
+        link.addEventListener("click", linkClickHandler);
+      });
+    }
+    
+    const mobile = mobileMenu(); */
