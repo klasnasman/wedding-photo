@@ -47,7 +47,7 @@ function mobileMenu() {
 
   const resizeHandler = () => {
     let w = window.innerWidth;
-    if (w > 950) {
+    if (w > 900) {
       menuMobile.classList.remove("open");
       menuBtn.textContent = "Menu";
     }
