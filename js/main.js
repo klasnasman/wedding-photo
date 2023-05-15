@@ -84,9 +84,7 @@ function checkScroll(e) {
     const windowHeight = window.innerHeight;
 
     if (top + height / 2 < windowHeight + 200) {
-
       if (image.src.length < 1) {
-
         if (image.dataset.src) {
           image.src = image.dataset.src;
         }
@@ -104,4 +102,3 @@ checkScroll();
 window.addEventListener("scroll", function (e) {
   checkScroll();
 });
-
