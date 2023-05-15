@@ -49,7 +49,7 @@ function mobileMenu() {
     let w = window.innerWidth;
     if (w > 900) {
       menuMobile.classList.remove("open");
-      menuBtn.textContent = "Menu";
+      menuBtn.textContent = "Meny";
     }
   };
 
@@ -61,7 +61,7 @@ function mobileMenu() {
 
   const linkClickHandler = () => {
     menuMobile.classList.remove("open");
-    menuBtn.textContent = "Menu";
+    menuBtn.textContent = "Meny";
   };
 
   window.addEventListener("resize", resizeHandler);
@@ -75,10 +75,6 @@ function mobileMenu() {
 const mobile = mobileMenu();
 
 // LAZY LOAD IMAGES WITH FADE IN:
-// images needs to be formatted like this:
-// <img class="lazy-load__image" data-src="image.png">
-
-// find all images
 let images = document.querySelectorAll(".lazy-load");
 
 function checkScroll(e) {
@@ -87,18 +83,15 @@ function checkScroll(e) {
     const height = Math.round(image.getBoundingClientRect().height);
     const windowHeight = window.innerHeight;
 
-    // if image is scrolled into viewport
     if (top + height / 2 < windowHeight + 200) {
-      // if image has no src
+
       if (image.src.length < 1) {
-        // find url in data-img (<img data-src="image.png">) and set it as "src"
-        // (<img src="image.png">) when it is in viewport and should be loaded.
+
         if (image.dataset.src) {
           image.src = image.dataset.src;
         }
       }
 
-      // add active class to add animation
       image.classList.add("lazy-load-active");
     } else {
       image.classList.remove("lazy-load-active");
@@ -112,36 +105,3 @@ window.addEventListener("scroll", function (e) {
   checkScroll();
 });
 
-// MOBILE MENU
-/* function mobileMenu() {
-    const menuBtn = document.getElementById("header__button");
-    const menuMobile = document.getElementById("mobile__menu");
-    const linksMobile = menuMobile.querySelectorAll(".mobile__ul li");
-  
-    const resizeHandler = () => {
-      let w = window.innerWidth;
-      if (w > 950) {
-        menuMobile.classList.remove("open");
-        menuBtn.textContent = "Menu";
-      }
-    };
-  
-    const toggleMenuHandler = () => {
-      menuMobile.classList.toggle("open");
-      menuBtn.textContent = menuBtn.textContent == "Menu" ? "Close" : "Menu";
-    };
-  
-    const linkClickHandler = () => {
-      menuMobile.classList.remove("open");
-      menuBtn.textContent = "Menu";
-    };
-  
-    window.addEventListener("resize", resizeHandler);
-    menuBtn.addEventListener("click", toggleMenuHandler);
-  
-    linksMobile.forEach((link) => {
-      link.addEventListener("click", linkClickHandler);
-    });
-  }
-  
-  const mobile = mobileMenu(); */
