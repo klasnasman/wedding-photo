@@ -267,7 +267,7 @@ img.three {
   justify-content: center;
   text-align: center;
   margin-inline: 1rem;
-  padding-bottom: var(--spacer-xs);
+  padding-bottom: var(--spacer-s);
 }
 
 /* CONTACT PAGE */
