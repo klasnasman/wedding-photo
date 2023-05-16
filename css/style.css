@@ -18,7 +18,6 @@
   --spacer-m: 1rem;
   --spacer-l: 2rem;
 
-  --padding: 1rem;
   --padding-title: 0.2rem 0rem 0rem 0rem;
   --padding-contact: 1rem 1rem 0rem 1rem;
 
@@ -195,7 +194,8 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacer-m);
-  padding: var(--padding);
+  margin-inline: var(--spacer-m);
+  padding-bottom: var(--spacer-l);
 }
 
 .column {
@@ -284,7 +284,7 @@ img.three {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding: var(--padding);
+  padding: var(--spacer-m);
 }
 
 @media screen and (width <=900px) {
