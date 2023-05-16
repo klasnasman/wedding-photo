@@ -1,11 +1,11 @@
 :root {
-  --color-body: #fbfbfa;
+  --clr-body: #fbfbfa;
 
   --ff-body: 'Domaine Sans Text', 'Untitled Serif', 'Inconsolata', 'Courier New', serif;
   --ff-heading: "Apercu";
 
   --fw-regular: 300;
-  --fw-semi-bold: 400;
+  --fw-semi: 400;
   --fw-bold: 500;
 
   --fs-xs: 0.75rem;
@@ -18,24 +18,18 @@
   --spacer-m: 1rem;
   --spacer-l: 2rem;
 
-  --padding-title: 0.2rem 0rem 0rem 0rem;
-  --padding-contact: 1rem 1rem 0rem 1rem;
-
-
   --header-height: 40px;
-  --mobile-menu-width: 3rem;
-
 }
 
 /* TEXT ETC */
 * {
   font-family: var(--ff-body);
-  font-weight: var(--fw-semi-bold);
+  font-weight: var(--fw-semi);
   font-size: var(--fs-s);
 }
 
 body {
-  background-color: var(--color-body);
+  background-color: var(--clr-body);
 }
 
 a {
@@ -81,7 +75,7 @@ button {
 }
 
 header {
-  background-color: var(--color-body);
+  background-color: var(--clr-body);
   position: sticky;
   width: 100%;
   top: 0;
@@ -149,7 +143,7 @@ nav ul li a {
   width: 100%;
   height: 100vh;
   top: -100vh;
-  background-color: var(--color-body);
+  background-color: var(--clr-body);
   transition: all 0.4s ease-in-out;
   z-index: 0;
 }
