@@ -248,7 +248,7 @@ img.three {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 1rem;
+  padding-top: var(--spacer-m);
   text-align: center;
   position: sticky;
   top: -3px;
@@ -267,7 +267,7 @@ img.three {
   justify-content: center;
   text-align: center;
   margin-inline: 1rem;
-  padding-bottom: var(--spacer-s);
+  padding-bottom: var(--spacer-m);
 }
 
 /* CONTACT PAGE */
