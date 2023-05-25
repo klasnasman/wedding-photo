@@ -30,7 +30,7 @@ async function fadeIn(el, durationInMs) {
 }
 
 async function fadeInMain() {
-  for (const main of document.getElementsByTagName("main")) {
+  for (const main of document.getElementsByClassName("page__transition")) {
     await fadeIn(main, 800);
   }
 }

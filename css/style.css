@@ -18,7 +18,13 @@
   --spacer-m: 1rem;
   --spacer-l: 2rem;
 
+  --ease-0: 0.8s;
   --header-height: 40px;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: var(--ease-0);
 }
 
 /* TEXT ETC */
@@ -189,6 +195,7 @@ nav ul li a {
   flex-wrap: wrap;
   gap: var(--spacer-m);
   margin-inline: var(--spacer-m);
+  padding-top: var(--spacer-m);
   padding-bottom: var(--spacer-l);
 }
 
